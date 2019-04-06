@@ -8,7 +8,7 @@ def main():
 
     # Read and parse our yaml configuration
     with open('config.yaml', 'r') as yaml_file:
-        configObject = yaml.parse(yaml_file)
+        configObject = yaml.load(yaml_file)
         pprint(configObject)
 
 
