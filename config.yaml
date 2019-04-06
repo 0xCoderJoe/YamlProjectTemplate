@@ -1,0 +1,7 @@
+---
+
+default:
+  variable: var1
+  list:
+    - item1
+    - item2
